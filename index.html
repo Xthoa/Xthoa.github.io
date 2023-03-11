@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mainpage.css" />
+    <script src="mainpage.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <ul id="sidenav" class="d-sm-none d-md-block nav nav-pills flex-md-column col-lg-2 offset-lg-1 col-md-2">
+                <li class="nav-item">
+                    <a href="#intro" class="nav-link">
+                        <span class="lang-en">Introduction</span>
+                        <span class="lang-ch">个人简介</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">
+                        <span class="lang-en">Projects</span>
+                        <span class="lang-ch">项目</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="col-lg-6 col-md-8">
+                <h1 class="text-center">
+                    <span class="lang-en">Xthoa</span>
+                    <span class="lang-ch">徐际飞</span>
+                </h1>
+                <hr>
+
+                <div id="intro" class="row">
+                    <div class="col-9">
+                        <h3>
+                            <span class="lang-en">Introduction</span>
+                            <span class="lang-ch">个人简介</span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <img class="img-fluid rounded-circle" src="images/photo.jpg">
+                    </div>
+                </div>
+
+                <div id="projects" class="row">
+                    <div class="col">
+                        <h3>
+                            <span class="lang-en">Projects</span>
+                            <span class="lang-ch">项目</span>
+                        </h3>
+                        <div class="container">
+                            <h4>
+                                <span class="lang-en">Operating systems</span>
+                                <span class="lang-ch">操作系统</span>
+                            </h4>
+                            <ul>
+                                <li><a href="https://gitee.com/xthoa/mosix-3d">Mosix 3d</a></li>
+                                <li><a href="https://gitee.com/xthoa/mosix-3c">Mosix 3c</a></li>
+                                <li><a href="https://gitee.com/xthoa/mosix-3a">Mosix 3a</a></li>
+                            </ul>
+                        </div>
+                        <div class="container">
+                            <h4>
+                                <span class="lang-en">Others</span>
+                                <span class="lang-ch">其它</span>
+                            </h4>
+                            <ul>
+                                <li>
+                                    <a href="projects/fwdemo/index.html">
+                                        <span class="lang-en">Firework (Demo)</span>
+                                        <span class="lang-ch">烟花（演示）</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="projects/wzdq/网址大全.html">
+                                        <span class="lang-en">Site navigation</span>
+                                        <span class="lang-ch">网址大全</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="lang-sel-div" class="col-lg-1 col-md-1">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                        <span id="lang-sel">English</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><button type="button" id="lang-sel-ch" class="dropdown-item">中文</button></li>
+                        <li><button type="button" id="lang-sel-en" class="dropdown-item">English</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div id="topbtn-md" class="d-sm-none d-md-block">
+                <a href="#" type="button" class="btn btn-light rounded-circle">
+                    <span class="lang-en">Goto top</span>
+                    <span class="lang-ch">回到顶部</span>
+                </a>
+            </div>
+            <div id="topbtn-sm" class="d-lg-none d-md-none d-xl-none">
+                <a href="#" type="button" class="btn btn-light rounded-circle">↑</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
