@@ -1,6 +1,12 @@
 #sidenav {
-    position: sticky;
+    padding: 0;
     margin-top: 3em;
+}
+
+#sidenav ul {
+    padding-top: 3em;
+    position: sticky;
+    top: 0;
 }
 
 body {
@@ -37,4 +43,16 @@ body {
     #lang-sel-div {
         position: absolute;
     }
+}
+
+td {
+    border: 1px;
+    border-color: silver;
+    border-style: solid;
+    padding: 6px;
+}
+
+.row {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }

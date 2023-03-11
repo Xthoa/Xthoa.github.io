@@ -2,33 +2,45 @@
 <html>
 
 <head>
-    <title>个人主页</title>
+    <title>Xthoa's homepage</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="mainpage.css" />
     <script src="mainpage.js"></script>
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <ul id="sidenav" class="d-sm-none d-md-block nav nav-pills flex-md-column col-lg-2 offset-lg-1 col-md-2">
-                <li class="nav-item">
-                    <a href="#intro" class="nav-link">
-                        <span class="lang-en">Introduction</span>
-                        <span class="lang-ch">个人简介</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#projects" class="nav-link">
-                        <span class="lang-en">Projects</span>
-                        <span class="lang-ch">项目</span>
-                    </a>
-                </li>
-            </ul>
+            <div id="sidenav" class="d-sm-none d-md-block col-lg-2 offset-lg-1 col-md-2">
+                <ul class="nav nav-pills flex-md-column">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link">
+                            <span class="lang-en">Introduction</span>
+                            <span class="lang-ch">个人简介</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#awards" class="nav-link">
+                            <span class="lang-en">Honors & Awards</span>
+                            <span class="lang-ch">荣誉</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="nav-link">
+                            <span class="lang-en">Projects</span>
+                            <span class="lang-ch">项目</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
             <div class="col-lg-6 col-md-8">
                 <h1 class="text-center">
@@ -43,13 +55,88 @@
                             <span class="lang-en">Introduction</span>
                             <span class="lang-ch">个人简介</span>
                         </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        <div class="container">
+                            <span class="lang-en">
+                                <p>
+                                    Email: 2733793945@qq.com
+                                    Phone: 18*******76
+                                </p>
+                                <h4>Education</h4>
+                                <table>
+                                    <tr>
+                                        <td>Primary school</td>
+                                        <td>Yifu Primary School of Xuhui District</td>
+                                        <td>09/2014 - 06/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Middle school</td>
+                                        <td>Shanghai Southwest Model Middle School</td>
+                                        <td>09/2019 - 06/2023</td>
+                                    </tr>
+                                </table>
+                            </span>
+                            <span class="lang-ch">
+                                <p>
+                                    邮箱: 2733793945@qq.com
+                                    手机: 18*******76
+                                </p>
+                                <h4>教育经历</h4>
+                                <table>
+                                    <tr>
+                                        <td>小学</td>
+                                        <td>徐汇区逸夫小学</td>
+                                        <td>2014.09 - 2019.06</td>
+                                    </tr>
+                                    <tr>
+                                        <td>初中</td>
+                                        <td>上海市西南模范中学</td>
+                                        <td>2019.09 - 2023.06</td>
+                                    </tr>
+                                </table>
+                            </span>
+                        </div>
                     </div>
                     <div class="col-3">
                         <img class="img-fluid rounded-circle" src="images/photo.jpg">
+                    </div>
+                </div>
+
+                <div id="awards" class="row">
+                    <div class="col">
+                        <h3>
+                            <span class="lang-en">Honors & Awards</span>
+                            <span class="lang-ch">荣誉</span>
+                        </h3>
+                        <div class="container">
+                            <span class="lang-en">
+                                <ul>
+                                    <li>Merit Student</li>
+                                    <li>Advanced Individual</li>
+                                    <li>Outstanding Contribution</li>
+                                    <li>The Asia International Mathematical Olympaid Open Contest (AIMO) 2017: <strong>Silver</strong></li>
+                                    <li>The 1st Yangtze River Delta Youth AI Olympic Challenge (YAIOC) 2021: <strong>Third prize</strong></li>
+                                    <li>The Birth of a Software -- Future Engineer Contest of Xuhui District 2022: <strong>Third prize</strong></li>
+                                    <li>LeetCode 287th Weekly Contest: <strong>Front 10%</strong></li>
+                                </ul>
+                            </span>
+                            <span class="lang-ch">
+                                <h4>校内成就</h4>
+                                <p>
+                                    职位：英语、数学课代表、电脑管理员
+                                    <br>
+                                    荣誉：孝敬之星、服务之星、三好积极分子、新时代好少年
+                                </p>
+                                <h4>校外荣誉</h4>
+                                <ul>
+                                    <li>亚洲国际数学奥林匹克公开赛 <strong>银奖</strong></li>
+                                    <li>街道“文明小使者”称号</li>
+                                    <li>“我为祖国点赞”主题征文活动 <strong>二等奖</strong></li>
+                                    <li>长三角青少年人工智能奥林匹克挑战赛 <strong>三等奖</strong></li>
+                                    <li>徐汇区未来工程师大赛 <strong>三等奖</strong></li>
+                                    <li>LeetCode算法周赛(287th) <strong>全球前10%</strong>名次</li>
+                                </ul>
+                            </span>
+                        </div>
                     </div>
                 </div>
 
