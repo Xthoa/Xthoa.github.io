@@ -17,49 +17,216 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div id="sidenav" class="d-sm-none d-md-block col-lg-2 offset-lg-1 col-md-2">
-                <ul class="nav nav-pills flex-md-column">
-                    <li class="nav-item">
-                        <a href="#intro" class="nav-link">
-                            <span class="lang-en">Introduction</span>
-                            <span class="lang-ch">个人简介</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#awards" class="nav-link">
-                            <span class="lang-en">Honors & Awards</span>
-                            <span class="lang-ch">荣誉</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#projects" class="nav-link">
-                            <span class="lang-en">Projects</span>
-                            <span class="lang-ch">项目</span>
-                        </a>
-                    </li>
-                </ul>
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col-2" id="header-head">
+                <img class="img-fluid rounded-circle" src="images/photo.jpg">
             </div>
-
-            <div class="col-lg-6 col-md-8">
-                <h1 class="text-center">
+            <div class="col-8">
+                <h1 style="margin-left: 8%; margin-top: 0.5em;" id="header-name">
                     <span class="lang-en">Xthoa</span>
                     <span class="lang-ch">徐际飞</span>
                 </h1>
-                <hr>
+                <div class="d-md-none" style="margin-left: 12%; font-size: larger;" id="header-information">
+                    <div data-bs-toggle="collapse" data-bs-target="#header-stat-text">
+                        <span class="lang-en">Information</span>
+                        <span class="lang-ch">详细信息</span>
+                    </div>
+                    <div class="collapse" id="header-stat-text">
+                        <span class="lang-en">Email: 2733793945@qq.com</span>
+                        <span class="lang-ch">邮箱: 2733793945@qq.com</span>
+                    </div>
+                </div>
+            </div>
+            <div id="lang-sel-div" class="col-2">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                    <span id="lang-sel">English</span>
+                </button>
+                    <ul class="dropdown-menu">
+                        <li><button type="button" id="lang-sel-ch" class="dropdown-item">中文</button></li>
+                        <li><button type="button" id="lang-sel-en" class="dropdown-item">English</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="mainrow">
+            <div class="d-sm-none d-md-block col-3" id="leftcol">
+                <div class="card" id="left-info">
+                    <div class="card-header" data-bs-toggle="collapse" data-bs-target="#header-stat-text">
+                        <span class="lang-en">Information</span>
+                        <span class="lang-ch">详细信息</span>
+                    </div>
+                    <div class="card-body collapse show" id="header-stat-text">
+                        <span class="lang-en">Email: 2733793945@qq.com</span>
+                        <span class="lang-ch">邮箱: 2733793945@qq.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-7" id="maincol">
+                <div id="projects">
+                    <h3>
+                        <span class="lang-en">Projects</span>
+                        <span class="lang-ch">项目</span>
+                    </h3>
+                    <div>
+                        <h4>
+                            <span class="lang-en">Operating systems</span>
+                            <span class="lang-ch">操作系统</span>
+                        </h4>
+                        <div class="card">
+                            <div class="card-header">Mosix 3d</div>
+                            <div class="card-body">
+                                <p>
+                                    <span class="lang-en">A hobby operating system.</span>
+                                    <span class="lang-ch">从零开始的操作系统生活</span>
+                                </p>
+                                <a class="btn border-dark" href="https://gitee.com/xthoa/mosix-3d">
+                                    <span class="lang-en">Go to project page</span>
+                                    <span class="lang-ch">跳转到项目页</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">Mosix 3c</div>
+                            <div class="card-body">
+                                <p>
+                                    <span class="lang-en">A hobby operating system.</span>
+                                    <span class="lang-ch">从零开始的操作系统生活</span>
+                                </p>
+                                <a class="btn border-dark" href="https://gitee.com/xthoa/mosix-3c">
+                                    <span class="lang-en">Go to project page</span>
+                                    <span class="lang-ch">跳转到项目页</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">Mosix 3a</div>
+                            <div class="card-body">
+                                <p>
+                                    <span class="lang-en">A hobby operating system.</span>
+                                    <span class="lang-ch">从零开始的操作系统生活</span>
+                                </p>
+                                <a class="btn border-dark" href="https://gitee.com/xthoa/mosix-3a">
+                                    <span class="lang-en">Go to project page</span>
+                                    <span class="lang-ch">跳转到项目页</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>
+                            <span class="lang-en">Others</span>
+                            <span class="lang-ch">其它</span>
+                        </h4>
+                        <div class="card">
+                            <div class="card-header">
+                                <span class="lang-en">Firework (Demo)</span>
+                                <span class="lang-ch">烟花（演示）</span>
+                            </div>
+                            <div class="card-body">
+                                <p>
+                                    <span class="lang-en">Set off fireworks where you click.</span>
+                                    <span class="lang-ch">单击以开始放烟花</span>
+                                </p>
+                                <a class="btn border-dark" href="projects/fwdemo/index.html">
+                                    <span class="lang-en">Go to project page</span>
+                                    <span class="lang-ch">跳转到项目页</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <span class="lang-en">Site navigation</span>
+                                <span class="lang-ch">网址大全</span>
+                            </div>
+                            <div class="card-body">
+                                <p>
+                                    <span class="lang-en">Site navigation</span>
+                                    <span class="lang-ch">网址大全</span>
+                                </p>
+                                <a class="btn border-dark" href="projects/wzdq/网址大全.html">
+                                    <span class="lang-en">Go to project page</span>
+                                    <span class="lang-ch">跳转到项目页</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="arts">
+                    <h3>
+                        <span class="lang-en">Articles</span>
+                        <span class="lang-ch">文章</span>
+                    </h3>
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="lang-en">圆锥曲线的探究</span>
+                            <span class="lang-ch">圆锥曲线的探究</span>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                <span class="lang-en">-</span>
+                                <span class="lang-ch">-</span>
+                            </p>
+                            <a class="btn border-dark" href="articles/圆锥曲线探究.pdf">
+                                <span class="lang-en">Download pdf</span>
+                                <span class="lang-ch">下载pdf</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-sm-none d-md-block col-2" id="rightcol">
+                <div id="sidenav">
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">
+                                <span class="lang-en">Projects</span>
+                                <span class="lang-ch">项目</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#arts" class="nav-link">
+                                <span class="lang-en">Articles</span>
+                                <span class="lang-ch">文章</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="topbtn">
+            <div id="topbtn-md" class="d-sm-none d-md-block">
+                <a href="#" type="button" class="btn btn-light rounded-circle border-dark">
+                    <span class="lang-en">Goto top</span>
+                    <span class="lang-ch">回到顶部</span>
+                </a>
+            </div>
+            <div id="topbtn-sm" class="d-lg-none d-md-none d-xl-none">
+                <a href="#" type="button" class="btn btn-light rounded-circle border-dark">↑</a>
+            </div>
+        </div>
 
-                <div id="intro" class="row">
-                    <div class="col-9">
-                        <h3>
-                            <span class="lang-en">Introduction</span>
-                            <span class="lang-ch">个人简介</span>
-                        </h3>
-                        <div class="container">
-                            <span class="lang-en">
+        <!--div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-md-8 offset-lg-2 offset-md-1">
+                    <h1 class="text-center">
+                        <span class="lang-en">Xthoa</span>
+                        <span class="lang-ch">徐际飞</span>
+                    </h1>
+                    <hr>
+
+                    <div id="intro" class="row">
+                        <div class="col-9">
+                            <h3>
+                                <span class="lang-en">Introduction</span>
+                                <span class="lang-ch">个人简介</span>
+                            </h3>
+                            <div class="container">
+                                <span class="lang-en">
                                 <p>
                                     Email: 2733793945@qq.com
-                                    Phone: 18*******76
                                 </p>
                                 <h4>Education</h4>
                                 <table>
@@ -75,10 +242,9 @@
                                     </tr>
                                 </table>
                             </span>
-                            <span class="lang-ch">
+                                <span class="lang-ch">
                                 <p>
                                     邮箱: 2733793945@qq.com
-                                    手机: 18*******76
                                 </p>
                                 <h4>教育经历</h4>
                                 <table>
@@ -94,21 +260,21 @@
                                     </tr>
                                 </table>
                             </span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid rounded-circle" src="images/photo.jpg">
                         </div>
                     </div>
-                    <div class="col-3">
-                        <img class="img-fluid rounded-circle" src="images/photo.jpg">
-                    </div>
-                </div>
 
-                <div id="awards" class="row">
-                    <div class="col">
-                        <h3>
-                            <span class="lang-en">Honors & Awards</span>
-                            <span class="lang-ch">荣誉</span>
-                        </h3>
-                        <div class="container">
-                            <span class="lang-en">
+                    <div id="awards" class="row">
+                        <div class="col">
+                            <h3>
+                                <span class="lang-en">Honors & Awards</span>
+                                <span class="lang-ch">荣誉</span>
+                            </h3>
+                            <div class="container">
+                                <span class="lang-en">
                                 <ul>
                                     <li>Merit Student</li>
                                     <li>Advanced Individual</li>
@@ -119,7 +285,7 @@
                                     <li>LeetCode 287th Weekly Contest: <strong>Front 10%</strong></li>
                                 </ul>
                             </span>
-                            <span class="lang-ch">
+                                <span class="lang-ch">
                                 <h4>校内成就</h4>
                                 <p>
                                     职位：英语、数学课代表、电脑管理员
@@ -136,77 +302,49 @@
                                     <li>LeetCode算法周赛(287th) <strong>全球前10%</strong>名次</li>
                                 </ul>
                             </span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div id="projects" class="row">
-                    <div class="col">
-                        <h3>
-                            <span class="lang-en">Projects</span>
-                            <span class="lang-ch">项目</span>
-                        </h3>
-                        <div class="container">
-                            <h4>
-                                <span class="lang-en">Operating systems</span>
-                                <span class="lang-ch">操作系统</span>
-                            </h4>
-                            <ul>
-                                <li><a href="https://gitee.com/xthoa/mosix-3d">Mosix 3d</a></li>
-                                <li><a href="https://gitee.com/xthoa/mosix-3c">Mosix 3c</a></li>
-                                <li><a href="https://gitee.com/xthoa/mosix-3a">Mosix 3a</a></li>
-                            </ul>
-                        </div>
-                        <div class="container">
-                            <h4>
-                                <span class="lang-en">Others</span>
-                                <span class="lang-ch">其它</span>
-                            </h4>
-                            <ul>
-                                <li>
-                                    <a href="projects/fwdemo/index.html">
-                                        <span class="lang-en">Firework (Demo)</span>
-                                        <span class="lang-ch">烟花（演示）</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="projects/wzdq/网址大全.html">
-                                        <span class="lang-en">Site navigation</span>
-                                        <span class="lang-ch">网址大全</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="lang-sel-div" class="col-lg-1 col-md-1">
-                <div class="dropdown">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                        <span id="lang-sel">English</span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><button type="button" id="lang-sel-ch" class="dropdown-item">中文</button></li>
-                        <li><button type="button" id="lang-sel-en" class="dropdown-item">English</button></li>
+                <div id="sidenav" class="d-sm-none d-md-block col-lg-2 offset-lg-9 col-md-2">
+                    <ul class="nav nav-pills flex-md-column">
+                        <li class="nav-item">
+                            <a href="#intro" class="nav-link">
+                                <span class="lang-en">Introduction</span>
+                                <span class="lang-ch">个人简介</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#awards" class="nav-link">
+                                <span class="lang-en">Honors & Awards</span>
+                                <span class="lang-ch">荣誉</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="nav-link">
+                                <span class="lang-en">Projects</span>
+                                <span class="lang-ch">项目</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-            </div>
-        </div>
 
-        <div>
-            <div id="topbtn-md" class="d-sm-none d-md-block">
-                <a href="#" type="button" class="btn btn-light rounded-circle">
-                    <span class="lang-en">Goto top</span>
-                    <span class="lang-ch">回到顶部</span>
-                </a>
+                <div id="lang-sel-div" class="col-lg-1 col-md-1">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                        <span id="lang-sel">English</span>
+                    </button>
+                        <ul class="dropdown-menu">
+                            <li><button type="button" id="lang-sel-ch" class="dropdown-item">中文</button></li>
+                            <li><button type="button" id="lang-sel-en" class="dropdown-item">English</button></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div id="topbtn-sm" class="d-lg-none d-md-none d-xl-none">
-                <a href="#" type="button" class="btn btn-light rounded-circle">↑</a>
-            </div>
-        </div>
 
-    </div>
+            
+
+            </div-->
 </body>
 
 </html>

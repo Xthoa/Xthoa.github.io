@@ -1,21 +1,17 @@
 #sidenav {
-    padding: 0;
-    margin-top: 3em;
-}
-
-#sidenav ul {
-    padding-top: 3em;
     position: sticky;
-    top: 0;
+    top: 3em;
 }
 
 body {
     margin-top: 3em;
+    margin-left: 4em;
+    margin-right: 3em;
 }
 
 #topbtn-md {
     position: fixed;
-    right: 20%;
+    right: 10%;
     bottom: 6em;
     height: 4em;
     width: 4em;
@@ -40,9 +36,6 @@ body {
     body {
         margin-top: 2em;
     }
-    #lang-sel-div {
-        position: absolute;
-    }
 }
 
 td {
@@ -53,6 +46,11 @@ td {
 }
 
 .row {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#maincol .card {
     margin-top: 1em;
     margin-bottom: 1em;
 }
