@@ -1,0 +1,106 @@
+一、限制性
+限制性：对修饰的语素进行范围的限制
+非限制性：对修饰的语素进行补充说明，不限定范围
+There were [very few passengers] (who escaped without serious injury).
+There were [very few passengers], (who escaped without serious injury).
+
+二、先行词
+1、按从句中的位置：
+①主语
+[The man] (who was in red) lied to us.
+②宾语
+I gave the woman [my bread] (which i had bought from the bakery at the corner).
+③状语
+地点：
+I prefer [the park] (where lots of flowers grow).
+时间：
+I remember [the time] (when we played together).
+原因：
+I don't know [the reason] (why he ran away).
+④定语
+物主：
+This is [a girl] (whose father is a soldier).
+形容性词语：
+We are [happy] (as you are).
+
+2、按本身类型：
+①名词
+物：
+I like [the book] (you bought me).
+人：
+I still remember [the girl] (you introduced to me).
+(人+物=物)
+②形容性词语
+形容词：
+That's [exciting] (as we have experienced).
+副词：
+We played [happily] (as you did).
+③句子（非限制性）：
+[More people prefer shopping online], (which facilities the development of the delivery industry).
+
+三、关系词
+that 主、宾
+It's [a lie] (that actually protects us).
+which 主、宾（物）
+Try [this activity] (which attracts millions of people).
+who 主、宾（人）
+That's [the girl] (who wants your signature).
+whom 宾（人）
+Say hello to [anyone] ([whom] you meet in the school).
+whose 定（物主）
+I saw [a boy] (whose clothes are oversized).
+why 状（原因）
+when 状（时间）
+where 状（地点）
+*as 所有
+
+1、that，which修饰物：
+that特定：不定/否定/强调/序数
+1)不定代词
+I forgot [everything] (that is about that accident).
+2)表否定、强调（the very,only)
+This is [the only book] ([that] i found there).
+There is [no such webpage] (that meets your requirements).
+3)序数词（the 1st,last）
+It's [the first chance] ([that] you get).
+4)人物复合
+He told us [many people and things] ([that] he met).
+5）重复的which（弱规则）
+Which is [the book] ([that] you borrowed me)?
+*Which is [the house] (in which they live)?
+
+which特定：非限定/前介词
+1）前置介词
+This is [the house] (in which we live).
+2）重复的that先行词（弱规则）
+The clock is [that] (which tells the time).
+3）非限定
+[The hotel], (which had hundreds of rooms), is getting more and more popular.
+
+2、that，who修饰人：
+who特定：人称代词/不定/存在
+1）不定代词（those,one,anyone）
+[Those] (who escaped from the accident) got some medical care.
+2）存在句型（there be）
+There is [a girl] (who expects to see you).
+3）人称代词
+[He] (who plays with fire) gets burnt.
+
+3、as的使用场景：
+状态性动词+确定性描述(+肯定)
+1）修饰句子
+[He failed the test] (as [what] we expected).
+[Reading is good], (as [what] is mentioned above).
+[Reading is good], (as [how] [it is] mentioned above).
+2）修饰人
+[The man], (as [whom] I told you just now), is a murderer.
+3）修饰物
+I bought [the book] (as [what] you introduced to me).
+4）修饰形容性词语
+It's [high] (as [how] [it is] showed in the video).
+That wasn't [so awesome] (as [how] he explained).
+
+4、when的省略情况：time
+This is [the last time] (you can see me).
+Remember [the time] (we plan to go).
+The photo repersents [the first time] (we stayed behind Jupiter).

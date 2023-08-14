@@ -1,0 +1,83 @@
+{
+    "lang": ["en", "zh"],
+    "sections": [{
+            "id": "projects",
+            "text": ["Projects", "项目"],
+            "sub": [{
+                    "id": "oss",
+                    "text": ["Operating systems", "操作系统"],
+                    "cards": [{
+                            "id": "mosix3d",
+                            "title": "Mosix 3d",
+                            "desc": ["A hobby operating system.", "从零开始的操作系统生活"],
+                            "link": "https://gitee.com/xthoa/mosix-3d",
+                            "style": "project"
+                        },
+                        {
+                            "id": "mosix3c",
+                            "title": "Mosix 3c",
+                            "desc": ["A hobby operating system.", "从零开始的操作系统生活"],
+                            "link": "https://gitee.com/xthoa/mosix-3c",
+                            "style": "project"
+                        },
+                        {
+                            "id": "mosix3a",
+                            "title": "Mosix 3a",
+                            "desc": ["A hobby operating system.", "从零开始的操作系统生活"],
+                            "link": "https://gitee.com/xthoa/mosix-3a",
+                            "style": "project"
+                        }
+                    ]
+                },
+                {
+                    "id": "others",
+                    "text": ["Others", "其他"],
+                    "cards": [{
+                            "id": "fwdemo",
+                            "title": ["Firework (Demo)", "烟花（演示）"],
+                            "desc": [
+                                "Set off fireworks where you click. (Reproduction)",
+                                "单击以开始放烟花"
+                            ],
+                            "link": "projects/fwdemo/index.html",
+                            "style": "project"
+                        },
+                        {
+                            "id": "wzdq",
+                            "title": ["Site navigation", "网址大全"],
+                            "desc": ["Site navigation", "网址大全"],
+                            "link": "projects/wzdq/网址大全.html",
+                            "style": "project"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "arts",
+            "text": ["Articles", "文章"],
+            "sub": [{
+                "id": "subjects",
+                "text": ["Subjects", "学科"],
+                "cards": [{
+                        "id": "conic-curve",
+                        "title": "圆锥曲线的探究",
+                        "desc": "-",
+                        "link": "articles/圆锥曲线探究.pdf",
+                        "style": "article"
+                    },
+                    {
+                        "id": "relative-clause",
+                        "title": ["Relative Clause", "定语从句"],
+                        "desc": [
+                            "A summary of relative clauses.",
+                            "定语从句相关内容梳理"
+                        ],
+                        "link": "articles/RelativeClause.txt",
+                        "style": "article"
+                    }
+                ]
+            }]
+        }
+    ]
+}

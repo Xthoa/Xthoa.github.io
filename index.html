@@ -4,6 +4,7 @@
 <head>
     <title>Xthoa's homepage</title>
 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
@@ -19,32 +20,32 @@
 <body>
     <div class="container-fluid">
         <div class="row" id="header">
-            <div class="col-2" id="header-head">
+            <div class="col-4 col-sm-2" id="header-head">
                 <img class="img-fluid rounded-circle" src="images/photo.jpg">
             </div>
-            <div class="col-8">
+            <div class="col-4 col-sm-7 col-md-8">
                 <h1 style="margin-left: 8%; margin-top: 0.5em;" id="header-name">
                     <span class="lang-en">Xthoa</span>
-                    <span class="lang-ch">徐际飞</span>
+                    <span class="lang-zh">徐际飞</span>
                 </h1>
                 <div class="d-md-none" style="margin-left: 12%; font-size: larger;" id="header-information">
                     <div data-bs-toggle="collapse" data-bs-target="#header-stat-text">
                         <span class="lang-en">Information</span>
-                        <span class="lang-ch">详细信息</span>
+                        <span class="lang-zh">详细信息</span>
                     </div>
                     <div class="collapse" id="header-stat-text">
                         <span class="lang-en">Email: 2733793945@qq.com</span>
-                        <span class="lang-ch">邮箱: 2733793945@qq.com</span>
+                        <span class="lang-zh">邮箱: 2733793945@qq.com</span>
                     </div>
                 </div>
             </div>
-            <div id="lang-sel-div" class="col-2">
+            <div id="lang-sel-div" class="col-4 col-sm-3 col-md-2">
                 <div class="dropdown">
                     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
                     <span id="lang-sel">English</span>
                 </button>
                     <ul class="dropdown-menu">
-                        <li><button type="button" id="lang-sel-ch" class="dropdown-item">中文</button></li>
+                        <li><button type="button" id="lang-sel-zh" class="dropdown-item">中文</button></li>
                         <li><button type="button" id="lang-sel-en" class="dropdown-item">English</button></li>
                     </ul>
                 </div>
@@ -55,17 +56,17 @@
                 <div class="card" id="left-info">
                     <div class="card-header" data-bs-toggle="collapse" data-bs-target="#left-info-text">
                         <span class="lang-en">Information</span>
-                        <span class="lang-ch">详细信息</span>
+                        <span class="lang-zh">详细信息</span>
                     </div>
                     <div class="card-body collapse show" id="left-info-text">
                         <span class="lang-en">Email: 2733793945@qq.com</span>
-                        <span class="lang-ch">邮箱: 2733793945@qq.com</span>
+                        <span class="lang-zh">邮箱: 2733793945@qq.com</span>
                     </div>
                 </div>
                 <div class="card" id="left-awards">
                     <div class="card-header" data-bs-toggle="collapse" data-bs-target="#left-awards-text">
                         <span class="lang-en">Honors & Awards</span>
-                        <span class="lang-ch">荣誉</span>
+                        <span class="lang-zh">荣誉</span>
                     </div>
                     <div class="card-body collapse" id="left-awards-text">
                         <span class="lang-en">
@@ -79,7 +80,7 @@
                             <li>LeetCode 287th Weekly Contest: <strong>Front 10%</strong></li>
                         </ul>
                     </span>
-                        <span class="lang-ch">
+                        <span class="lang-zh">
                         <h4>校内成就</h4>
                         <p>
                             职位：英语、数学课代表、电脑管理员
@@ -99,27 +100,27 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-7" id="maincol">
-                <div id="projects">
+            <div class="col-12 col-md-7" id="maincol">
+                <!-- div id="projects">
                     <h3>
                         <span class="lang-en">Projects</span>
-                        <span class="lang-ch">项目</span>
+                        <span class="lang-zh">项目</span>
                     </h3>
                     <div>
                         <h4>
                             <span class="lang-en">Operating systems</span>
-                            <span class="lang-ch">操作系统</span>
+                            <span class="lang-zh">操作系统</span>
                         </h4>
                         <div class="card">
                             <div class="card-header">Mosix 3d</div>
                             <div class="card-body">
                                 <p>
                                     <span class="lang-en">A hobby operating system.</span>
-                                    <span class="lang-ch">从零开始的操作系统生活</span>
+                                    <span class="lang-zh">从零开始的操作系统生活</span>
                                 </p>
                                 <a class="btn border-dark" href="https://gitee.com/xthoa/mosix-3d">
                                     <span class="lang-en">Go to project page</span>
-                                    <span class="lang-ch">跳转到项目页</span>
+                                    <span class="lang-zh">跳转到项目页</span>
                                 </a>
                             </div>
                         </div>
@@ -128,11 +129,11 @@
                             <div class="card-body">
                                 <p>
                                     <span class="lang-en">A hobby operating system.</span>
-                                    <span class="lang-ch">从零开始的操作系统生活</span>
+                                    <span class="lang-zh">从零开始的操作系统生活</span>
                                 </p>
                                 <a class="btn border-dark" href="https://gitee.com/xthoa/mosix-3c">
                                     <span class="lang-en">Go to project page</span>
-                                    <span class="lang-ch">跳转到项目页</span>
+                                    <span class="lang-zh">跳转到项目页</span>
                                 </a>
                             </div>
                         </div>
@@ -141,11 +142,11 @@
                             <div class="card-body">
                                 <p>
                                     <span class="lang-en">A hobby operating system.</span>
-                                    <span class="lang-ch">从零开始的操作系统生活</span>
+                                    <span class="lang-zh">从零开始的操作系统生活</span>
                                 </p>
                                 <a class="btn border-dark" href="https://gitee.com/xthoa/mosix-3a">
                                     <span class="lang-en">Go to project page</span>
-                                    <span class="lang-ch">跳转到项目页</span>
+                                    <span class="lang-zh">跳转到项目页</span>
                                 </a>
                             </div>
                         </div>
@@ -153,37 +154,37 @@
                     <div>
                         <h4>
                             <span class="lang-en">Others</span>
-                            <span class="lang-ch">其它</span>
+                            <span class="lang-zh">其它</span>
                         </h4>
                         <div class="card">
                             <div class="card-header">
                                 <span class="lang-en">Firework (Demo)</span>
-                                <span class="lang-ch">烟花（演示）</span>
+                                <span class="lang-zh">烟花（演示）</span>
                             </div>
                             <div class="card-body">
                                 <p>
                                     <span class="lang-en">Set off fireworks where you click.</span>
-                                    <span class="lang-ch">单击以开始放烟花</span>
+                                    <span class="lang-zh">单击以开始放烟花</span>
                                 </p>
                                 <a class="btn border-dark" href="projects/fwdemo/index.html">
                                     <span class="lang-en">Go to project page</span>
-                                    <span class="lang-ch">跳转到项目页</span>
+                                    <span class="lang-zh">跳转到项目页</span>
                                 </a>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <span class="lang-en">Site navigation</span>
-                                <span class="lang-ch">网址大全</span>
+                                <span class="lang-zh">网址大全</span>
                             </div>
                             <div class="card-body">
                                 <p>
                                     <span class="lang-en">Site navigation</span>
-                                    <span class="lang-ch">网址大全</span>
+                                    <span class="lang-zh">网址大全</span>
                                 </p>
                                 <a class="btn border-dark" href="projects/wzdq/网址大全.html">
                                     <span class="lang-en">Go to project page</span>
-                                    <span class="lang-ch">跳转到项目页</span>
+                                    <span class="lang-zh">跳转到项目页</span>
                                 </a>
                             </div>
                         </div>
@@ -192,25 +193,31 @@
                 <div id="arts">
                     <h3>
                         <span class="lang-en">Articles</span>
-                        <span class="lang-ch">文章</span>
+                        <span class="lang-zh">文章</span>
                     </h3>
                     <div class="card">
                         <div class="card-header">
                             <span class="lang-en">圆锥曲线的探究</span>
-                            <span class="lang-ch">圆锥曲线的探究</span>
+                            <span class="lang-zh">圆锥曲线的探究</span>
                         </div>
                         <div class="card-body">
                             <p>
                                 <span class="lang-en">-</span>
-                                <span class="lang-ch">-</span>
+                                <span class="lang-zh">-</span>
                             </p>
-                            <a class="btn border-dark" href="articles/圆锥曲线探究.pdf">
+                            <a class="btn border-dark" href="articles/圆锥曲线探究.pdf" download>
                                 <span class="lang-en">Download pdf</span>
-                                <span class="lang-ch">下载pdf</span>
+                                <span class="lang-zh">下载pdf</span>
                             </a>
+                            <div class="btn border-dark" data-bs-toggle="collapse" data-bs-target="#art1pdf">
+                                <span class="lang-en">Show/Hide pdf</span>
+                                <span class="lang-zh">显示/隐藏 pdf</span>
+                            </div>
+                            <br>
+                            <iframe style="margin-top: 1em;" class="collapse" id="art1pdf" src="articles/圆锥曲线探究.pdf" width="100%" height="600px" />
                         </div>
                     </div>
-                </div>
+                </div-->
             </div>
             <div class="d-sm-none d-md-block col-2" id="rightcol">
                 <div id="sidenav">
@@ -218,13 +225,13 @@
                         <li class="nav-item">
                             <a href="#projects" class="nav-link">
                                 <span class="lang-en">Projects</span>
-                                <span class="lang-ch">项目</span>
+                                <span class="lang-zh">项目</span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#arts" class="nav-link">
                                 <span class="lang-en">Articles</span>
-                                <span class="lang-ch">文章</span>
+                                <span class="lang-zh">文章</span>
                             </a>
                         </li>
                     </ul>
@@ -235,7 +242,7 @@
             <div id="topbtn-md" class="d-sm-none d-md-block">
                 <a href="#" type="button" class="btn btn-light rounded-circle border-dark">
                     <span class="lang-en">Goto top</span>
-                    <span class="lang-ch">回到顶部</span>
+                    <span class="lang-zh">回到顶部</span>
                 </a>
             </div>
             <div id="topbtn-sm" class="d-lg-none d-md-none d-xl-none">
@@ -249,7 +256,7 @@
                 <div class="col-lg-6 col-md-8 offset-lg-2 offset-md-1">
                     <h1 class="text-center">
                         <span class="lang-en">Xthoa</span>
-                        <span class="lang-ch">徐际飞</span>
+                        <span class="lang-zh">徐际飞</span>
                     </h1>
                     <hr>
 
@@ -257,7 +264,7 @@
                         <div class="col-9">
                             <h3>
                                 <span class="lang-en">Introduction</span>
-                                <span class="lang-ch">个人简介</span>
+                                <span class="lang-zh">个人简介</span>
                             </h3>
                             <div class="container">
                                 <span class="lang-en">
@@ -278,7 +285,7 @@
                                     </tr>
                                 </table>
                             </span>
-                                <span class="lang-ch">
+                                <span class="lang-zh">
                                 <p>
                                     邮箱: 2733793945@qq.com
                                 </p>
@@ -307,7 +314,7 @@
                         <div class="col">
                             <h3>
                                 <span class="lang-en">Honors & Awards</span>
-                                <span class="lang-ch">荣誉</span>
+                                <span class="lang-zh">荣誉</span>
                             </h3>
                             
                         </div>
@@ -318,19 +325,19 @@
                         <li class="nav-item">
                             <a href="#intro" class="nav-link">
                                 <span class="lang-en">Introduction</span>
-                                <span class="lang-ch">个人简介</span>
+                                <span class="lang-zh">个人简介</span>
                             </a>
                         </li>
                         <li>
                             <a href="#awards" class="nav-link">
                                 <span class="lang-en">Honors & Awards</span>
-                                <span class="lang-ch">荣誉</span>
+                                <span class="lang-zh">荣誉</span>
                             </a>
                         </li>
                         <li>
                             <a href="#projects" class="nav-link">
                                 <span class="lang-en">Projects</span>
-                                <span class="lang-ch">项目</span>
+                                <span class="lang-zh">项目</span>
                             </a>
                         </li>
                     </ul>
@@ -342,7 +349,7 @@
                         <span id="lang-sel">English</span>
                     </button>
                         <ul class="dropdown-menu">
-                            <li><button type="button" id="lang-sel-ch" class="dropdown-item">中文</button></li>
+                            <li><button type="button" id="lang-sel-zh" class="dropdown-item">中文</button></li>
                             <li><button type="button" id="lang-sel-en" class="dropdown-item">English</button></li>
                         </ul>
                     </div>
